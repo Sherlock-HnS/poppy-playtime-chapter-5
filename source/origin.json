@@ -4,8 +4,8 @@
   "title": "[PILL PACK] Poppy Playtime Chapter 5 Pill Pack",
   "author": "Blastnit",
   "status": "extracted_verified",
-  "acquisition": "existing_steam_client_installation",
-  "steamcmd_download_completed": false,
+  "acquisition": "steamcmd",
+  "steamcmd_download_completed": true,
   "source_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3671628046",
   "source_archive_sha256": "fe5a2ef8af4317f778e412329de03022fd2d9763856e8eff9d628db2db546fd9",
   "gma_header": {
