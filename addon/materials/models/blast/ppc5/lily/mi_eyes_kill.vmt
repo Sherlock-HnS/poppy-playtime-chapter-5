@@ -1,0 +1,21 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\Blast\PPC5\lily\eyekill_d"
+    "$bumpmap" "models\Blast\PPC5\shared\flat"
+
+    "$color2" "[.85 .85 .85]"
+
+    "$nodecal" "1"
+
+    "$phong" "1"
+
+    "$phongexponent" "150"
+
+    "$phongboost"    ".5"
+    
+    "$phongfresnelranges"	"[.5 1 1]"
+
+    "$phongdisablehalflambert"    "1"
+
+    "$nocull" "0"
+}

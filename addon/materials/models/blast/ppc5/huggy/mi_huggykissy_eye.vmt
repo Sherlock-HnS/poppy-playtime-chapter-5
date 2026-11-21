@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\blast\ppc5\huggy\eyes_d"
+    "$bumpmap" "models/blast/ppc5/shared/flat"
+
+    "$nodecal" "1"
+
+    "$phong" "1"
+
+    "$phongexponent" "100"
+
+    "$phongboost"    "5"
+    
+    "$phongfresnelranges"	"[.5 1 1]"
+
+    "$phongdisablehalflambert"    "1"
+
+    "$nocull" "1"
+}

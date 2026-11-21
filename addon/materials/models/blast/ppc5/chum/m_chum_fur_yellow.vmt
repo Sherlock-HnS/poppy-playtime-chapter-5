@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\Blast\PPC5\Chum\fur_d"
+    "$bumpmap" "models\Blast\PPC5\Chum\fur_n"
+
+    "$nodecal" "1"
+
+    "$color2" "[.8 .7 .3]"
+
+    "$alphatest" "1"
+
+    "$alphatestreference" ".55"
+
+    "$phong" "1"
+
+    "$phongtint" "[1 1 .2]"
+
+    "$phongexponent" "2"
+
+    "$phongboost"    ".3"
+    
+    "$phongfresnelranges"	"[.5 1 1]"
+
+    "$phongdisablehalflambert"    "1"
+
+    "$nocull" "1"
+}

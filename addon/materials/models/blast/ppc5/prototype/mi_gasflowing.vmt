@@ -1,0 +1,31 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models/blast/ppc5/shared/redsmoke"
+    "$bumpmap" "models/blast/ppc5/shared/flat"
+
+    "$color2" "[.8 .8 .8]"
+
+    "$nodecal" "1"
+
+    "$phong" "1"
+
+    "$phongexponent" "80"
+
+    "$phongboost"    "1"
+   
+    "$phongfresnelranges"	"[.5 1 1]"
+
+    "$phongdisablehalflambert"    "1"
+
+    "$nocull" "0"
+
+    Proxies
+	{
+		TextureScroll
+		{
+			textureScrollRate   ".5"
+			textureScrollAngle  "90"
+			textureScrollVar	"$basetexturetransform"
+		}
+	}
+}

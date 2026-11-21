@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\blast\ppc5\prototype\chestlight_d"
+    "$bumpmap" "models\blast\ppc5\prototype\chestlight_n"
+
+    "$nodecal" "1"
+
+    "$detail" "models\blast\ppc5\prototype\chestlight_e"
+    "$detailscale" "1"
+    "$detailblendmode" "5"
+    "$detailblendfactor" "1"
+
+    "$phong" "1"
+
+    "$phongexponenttexture" "models\blast\ppc5\prototype\chestlight_s"
+
+    "$phongboost"    "1"
+   
+    "$phongfresnelranges"	"[.5 1 1]"
+
+    "$phongdisablehalflambert"    "1"
+
+    "$nocull" "1"
+}

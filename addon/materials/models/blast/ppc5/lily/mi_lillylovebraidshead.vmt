@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\Blast\PPC5\lily\head_d"
+    "$bumpmap" "models\Blast\PPC5\lily\head_n"
+
+    "$blendtintbybasealpha" "1"
+
+    "$color2" "[.4 .4 .4]"
+
+    "$nodecal" "1"
+
+    "$phong" "1"
+
+    "$phongalbedotint" "1"
+
+    "$phongexponenttexture" "models\Blast\PPC5\lily\head_s"
+
+    "$phongboost"    "1"
+    
+    "$phongalbedoboost"    "25"
+    
+    "$phongfresnelranges"	"[.5 1 1]"
+
+    "$phongdisablehalflambert"    "1"
+
+    "$nocull" "1"
+}

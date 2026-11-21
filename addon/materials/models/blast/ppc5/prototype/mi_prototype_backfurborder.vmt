@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\blast\ppc5\prototype\backfurborder_d"
+    "$bumpmap" "models/blast/ppc5/shared/flat"
+
+    "$translucent" "1"
+
+    "$nodecal" "1"
+
+    "$phong" "0"
+
+    "$nocull" "0"
+}

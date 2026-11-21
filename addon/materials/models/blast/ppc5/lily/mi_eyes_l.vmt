@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\Blast\PPC5\lily\eye_d"
+    "$bumpmap" "models\Blast\PPC5\shared\flat"
+
+    "$color2" "[.85 .85 .85]"
+
+    "$detail" "models\Blast\PPC5\lily\eyespot_d"
+    "$detailtexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 1.09 1.09"
+    "$detailscale" "1"
+    "$detailblendmode" "2"
+    "$detailblendfactor" "1"
+
+    "$nodecal" "1"
+
+    "$phong" "1"
+
+    "$phongexponent" "150"
+
+    "$phongboost"    ".5"
+    
+    "$phongfresnelranges"	"[.5 1 1]"
+
+    "$phongdisablehalflambert"    "1"
+
+    "$nocull" "0"
+}

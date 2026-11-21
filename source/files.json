@@ -1,0 +1,1376 @@
+[
+  {
+    "path": "lua/autorun/include/ppt5.lua",
+    "size": 66976,
+    "crc": 2266954738,
+    "sha256": "b8ce83b1fdd9e7b2bb1091b81e0b31d1c1af5874756cb051e22b8b49ef49037c"
+  },
+  {
+    "path": "lua/autorun/pill_basesppt5.lua",
+    "size": 658,
+    "crc": 4113880138,
+    "sha256": "6a33388baa9699b2abc7abec9855286a4f6f03b0e0402e9e0e3e04a4c9c6a34b"
+  },
+  {
+    "path": "lua/autorun/ppt5_animsound.lua",
+    "size": 4514,
+    "crc": 4087014428,
+    "sha256": "2bcc20763c2f723eb871689cfd293b7992f5a4ba47509b46336af5327ca1eb56"
+  },
+  {
+    "path": "materials/blastnit/icon/bowtie.png",
+    "size": 94770,
+    "crc": 1598765002,
+    "sha256": "53754855ff24896506bfb6753731112115d8778fb632da54e9c619c9fa475289"
+  },
+  {
+    "path": "materials/icon/proto_pill_thumb.png",
+    "size": 408794,
+    "crc": 856390309,
+    "sha256": "c9df96db4e155cf5dd56f5478f9154a130202ae13ee3a1dce05c7a350b23e117"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/body_d.vtf",
+    "size": 2796424,
+    "crc": 3410212347,
+    "sha256": "c930af561b9b86acc56e966c373ff4795e87789cde6449c6d432b72122e40a3c"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/body_n.vtf",
+    "size": 5592640,
+    "crc": 1312280907,
+    "sha256": "d60c2d2da74927abdb2d54df872b7e7c8fa4c41d142e0197f045d5714d1aee6a"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/body_s.vtf",
+    "size": 2796424,
+    "crc": 1901046254,
+    "sha256": "8468289e834fdabcfdc7c31de3254e26a9c6fd888a49c9bfda15c9e7d1a8ceb2"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/eye_d.vtf",
+    "size": 2796424,
+    "crc": 4152684982,
+    "sha256": "fb0372d28ed029a241690e2ecab9ca3f3d157251060f45e3ce6f21ee1c40a477"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/eye_n.vtf",
+    "size": 5592640,
+    "crc": 3277302977,
+    "sha256": "61ad6c7b9958c9c0c463038dd33c9d785bb412e15a2a7dbf0950e43927ff2394"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/eye_s.vtf",
+    "size": 2796424,
+    "crc": 2914015440,
+    "sha256": "1cbb03bde48c23ecbc7314c1e320a8a45330e749d283a3bf80ceb5a028002d44"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/fur_d.vtf",
+    "size": 5592640,
+    "crc": 3223804506,
+    "sha256": "b3b6da10d84e4f28674da64328330e4e92c895c373058ddf49b7724f49c36711"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/fur_de.vtf",
+    "size": 5592640,
+    "crc": 1846516730,
+    "sha256": "b5db8fb8447ae302ef4288f8810af5f8e9107944a6e623d3f6ebb5ba3bde48cc"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/fur_n.vtf",
+    "size": 2796424,
+    "crc": 2515363754,
+    "sha256": "9b8351a5f6bf8aaba79b8caf301156ad7d24849ec92231e9c3cb1b9d5d449523"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/m_chum_fur_red.vmt",
+    "size": 450,
+    "crc": 221723298,
+    "sha256": "a0473ff39999ec74b08d15f9fdb5e291924e24722cabf89d6963482fe494a19a"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/m_chum_fur_yellow.vmt",
+    "size": 447,
+    "crc": 1439777271,
+    "sha256": "98689af7e33ed11d2da37aed91f6953c4fd8f9c108356b141f710bba7b67798c"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/mi_chum.vmt",
+    "size": 363,
+    "crc": 281524705,
+    "sha256": "52e59ce308433be52afa8d88813fde8af4cd06187bde047cf6e43890b26d10a4"
+  },
+  {
+    "path": "materials/models/blast/ppc5/chum/mi_chum_eyes.vmt",
+    "size": 360,
+    "crc": 3979884464,
+    "sha256": "e0a5537d8de1d6273b62900357d540ec05f96af73834592a5c9903a9e12a2d06"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/body_d.vtf",
+    "size": 5592640,
+    "crc": 2362336432,
+    "sha256": "782638d179e7fd162f6a2f5b299a88739fc04f54bb520800152a7c5f4c77f84c"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/body_n.vtf",
+    "size": 5592640,
+    "crc": 1616952009,
+    "sha256": "64d280ddb262e6d182aca2d9933b2c040f408c597941c747ac4be83bb41338d7"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/body_s.vtf",
+    "size": 2796424,
+    "crc": 2896394030,
+    "sha256": "2829553f0edc6b0d53a587f239b79db19204c44e1935a0823cf56ded696e279d"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/eyes_d.vtf",
+    "size": 2796424,
+    "crc": 268136982,
+    "sha256": "8369ccedd23ffb3013aadfa4276b349c5fba2e4ef26e58628681abd3ec2ad6d4"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/fur_d.vtf",
+    "size": 5592640,
+    "crc": 2058907755,
+    "sha256": "45b7b7cc8b5e516ce8c6de025a10cc246450c3964cf71aadc4ca60a59e919478"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/fur_n.vtf",
+    "size": 5592640,
+    "crc": 1944233882,
+    "sha256": "a7b46be153abb01927a5b771512da1cf4c9aa7e0cd65ce96c0be50f247894504"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/fur_s.vtf",
+    "size": 2796424,
+    "crc": 3606276299,
+    "sha256": "e19c4817f8a4289aad1d0b94e5e644cd311697c0d09b3147c714f667a623997f"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/injured/body_d.vtf",
+    "size": 5592640,
+    "crc": 415527591,
+    "sha256": "822cc79c877c404dbe4cc32bf29984a8f2dfa3da1700ccb935787b48a9d58495"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/injured/body_n.vtf",
+    "size": 5592640,
+    "crc": 2860569382,
+    "sha256": "b8051d86eb9ccc37b25aff110bede9802b88ae84c01ffdc56f8c6d0a7661291c"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/injured/body_s.vtf",
+    "size": 2796424,
+    "crc": 2337169085,
+    "sha256": "d8519eefab8d4fdd130adbde8277a031259a090d2fffb8be43d27a3957e86f9b"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/injured/mi_huggy_withered.vmt",
+    "size": 524,
+    "crc": 2325852556,
+    "sha256": "c877fabbfe840891f2f62f8c417f656264da143d642a384da112a38c87f56955"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/mi_huggy.vmt",
+    "size": 500,
+    "crc": 64160975,
+    "sha256": "e589d84193e4b724bf5f9fb68801e115ab80645600873f28520930d41c4954de"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/mi_huggy_withered_fur.vmt",
+    "size": 454,
+    "crc": 3487886043,
+    "sha256": "3eb246d914bafca1d605dad16e0a2d94053987919c3b13a7a1e450e233af3a99"
+  },
+  {
+    "path": "materials/models/blast/ppc5/huggy/mi_huggykissy_eye.vmt",
+    "size": 331,
+    "crc": 3854189261,
+    "sha256": "521deea6f52f41cbb5300746f7796c9f4937d1dd110c084af59aca5a39adedd6"
+  },
+  {
+    "path": "materials/models/blast/ppc5/kissy/fur_d.vtf",
+    "size": 1398336,
+    "crc": 4002999777,
+    "sha256": "d2d4f754976498ad4e0af2be5d9ddc337744406e92e063e9f16eceb3a5e0b04e"
+  },
+  {
+    "path": "materials/models/blast/ppc5/kissy/mi_kissy_fur.vmt",
+    "size": 462,
+    "crc": 901933066,
+    "sha256": "970c2368de4820b3635a1726fe6abbb7baefa59babe610773740c83e0b52eb9e"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/clothes_d.vtf",
+    "size": 5592640,
+    "crc": 664281272,
+    "sha256": "a5560b7e1557a05d60c5e6c068e2b4782f8cbcea156fdd057baa652e612a9b99"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/clothes_n.vtf",
+    "size": 5592640,
+    "crc": 2167900118,
+    "sha256": "d20729c850f0392d7b235ea3066ac06144b4094649098123844714ce9de1de02"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/clothes_s.vtf",
+    "size": 2796424,
+    "crc": 1708951430,
+    "sha256": "5ffdba0c90ac1dac7348631e1a5c3ea68348feda92b10543cfc51fdbf7cf1872"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/eye_d.vtf",
+    "size": 699272,
+    "crc": 1714932554,
+    "sha256": "d8f9e4046364c6c38f5b0842835155ddac769a33248c75dc40a373fc3c4fd978"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/eyeangry_d.vtf",
+    "size": 699272,
+    "crc": 2082518748,
+    "sha256": "956c79f21fa383a088a3c75ff621401af374dfd0cce54e57431c0512f31abd75"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/eyekill_d.vtf",
+    "size": 699272,
+    "crc": 1695609473,
+    "sha256": "ed8f7d00389b24ee1710a92890e4a4f904bfd6918b091e76983cc378140460db"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/eyespot_d.vtf",
+    "size": 1398336,
+    "crc": 1950012408,
+    "sha256": "66770509b569ef3179b440e9aa423ce50fb0f0b588d957f090961f2cf54158bd"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/hair_d.vtf",
+    "size": 5592640,
+    "crc": 25399936,
+    "sha256": "e723017163e23162b766c1255a5bee50aa0d3963d733a627fa8a2f8111dc02a2"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/hair_n.vtf",
+    "size": 699272,
+    "crc": 515291892,
+    "sha256": "0d1768b7bdf2e3c03aca44d234dcb6ebbfec042aa86e98fae5f6eff7fec171b0"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/head_d.vtf",
+    "size": 5592640,
+    "crc": 3213038277,
+    "sha256": "85577597eeb5dd35745cc50e7106f11df07dae06d53dfdeb0135f48054f7960f"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/head_n.vtf",
+    "size": 5592640,
+    "crc": 1171522620,
+    "sha256": "4bb5626ba9351f69f15eba5c23f16a9031e46a15652fb85265f184d659605955"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/head_s.vtf",
+    "size": 2796424,
+    "crc": 429544463,
+    "sha256": "b0c6d001281de4193254937d69eb9c5df283fc1731ac8e849a5191d5edb33c15"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/limbs_d.vtf",
+    "size": 2796424,
+    "crc": 738240657,
+    "sha256": "be39d30355617290bd53d330d19b1f47ff6d60f0f53ee18839937520b2586183"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/limbs_n.vtf",
+    "size": 5592640,
+    "crc": 2485450556,
+    "sha256": "b6d58d8efb269bd009153165dc29006239f54e7e9e805c1f898a0c74ba2b53ec"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/limbs_s.vtf",
+    "size": 2796424,
+    "crc": 2030214601,
+    "sha256": "e7cef92ff4834730b1d5a38a1f3f329b84826c009831bd39123bf4bb833558e8"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/mi_eyes_kill.vmt",
+    "size": 367,
+    "crc": 3577136146,
+    "sha256": "e2bca80cf185bf503c287e519b6cb7f42651d314d49444f3ab8323cd6bee5f8c"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/mi_eyes_l.vmt",
+    "size": 582,
+    "crc": 1739616884,
+    "sha256": "fe977cb955529a7736ff43a8b7f5824d21f8f49eaf9c40ac46f2dc6cbe387c54"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/mi_eyes_l_crazy.vmt",
+    "size": 587,
+    "crc": 2203799968,
+    "sha256": "56392ae677140d93e030975f2292a1af9217d94dda4af4ea96fa759233980ab2"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/mi_eyes_r.vmt",
+    "size": 581,
+    "crc": 4110280488,
+    "sha256": "9fd57f068befbe304079d2a74940bcc361c0818e2a8bf89029d5f25008bce944"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/mi_eyes_r_crazy.vmt",
+    "size": 586,
+    "crc": 286341284,
+    "sha256": "dae2b7890ddd347ea940f4a964db826aa30dfd838f1c2dfdda450b65bb4d0870"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/mi_lillylovebraidsclothes.vmt",
+    "size": 506,
+    "crc": 3521715591,
+    "sha256": "eec58efd433c677bd9bb039a456a5e8acae56d51755d578116160e7e6eaf6ee9"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/mi_lillylovebraidshead.vmt",
+    "size": 497,
+    "crc": 3583491385,
+    "sha256": "a80dad2a0406d447dadaac145c77eed29dc066dda9aaa01490ec416e9db23283"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/mi_lillylovebraidslimbs.vmt",
+    "size": 363,
+    "crc": 4158937787,
+    "sha256": "cad683acaf94deaa2a363cb8ab232deb1c51911a7a3d2f3a90791d930139a7b3"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/mi_lily_hairdark.vmt",
+    "size": 452,
+    "crc": 469994605,
+    "sha256": "e4d3928292d745b5a6fa8d324c4421dc51174fcba7ddb88f6768ab997400e669"
+  },
+  {
+    "path": "materials/models/blast/ppc5/lily/mi_lily_hairlight.vmt",
+    "size": 451,
+    "crc": 1037457979,
+    "sha256": "cba9843e3b7aeeec7478fc06c12c8fa9a533b0f2fa908fb9589f86323f2f13de"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/arms_d.vtf",
+    "size": 5592640,
+    "crc": 269427553,
+    "sha256": "35fd42fb2aeeab43dff1b97ba6f5454afb7faf8ea6ac633aea2dd5b914758db0"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/arms_n.vtf",
+    "size": 1398336,
+    "crc": 24328343,
+    "sha256": "1709b7d114f4ef013a3464b766ec2439a1918b53230f1a5c509715a4ae557e9f"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/arms_s.vtf",
+    "size": 699272,
+    "crc": 1228595905,
+    "sha256": "6b6a774902e7cbcf35876093fc35fd5f0f1ffb71cf2b17454a30bbf376c9e14e"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/backfur_d.vtf",
+    "size": 5592640,
+    "crc": 3334959765,
+    "sha256": "19a2e5894d65789dcd1a3adac0b10483004def308880d9f657185369d40b4260"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/backfur_n.vtf",
+    "size": 1398336,
+    "crc": 1616982694,
+    "sha256": "23c6d2ccc976973e36671f8017d07b7d73a5c06f5ed580788bbca3c8c9146003"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/backfur_s.vtf",
+    "size": 174984,
+    "crc": 2129214725,
+    "sha256": "f7a5476a7eaf6c8510dbb815d2342405362ae100ece609c7beef784f898e795f"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/backfurborder_d.vtf",
+    "size": 1398336,
+    "crc": 554419574,
+    "sha256": "b8d48b5567b75f07d811deda72b5231c7dd86555cc5188508d4338260912b52e"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/body_d.vtf",
+    "size": 5592640,
+    "crc": 1211129419,
+    "sha256": "86c0ad9cac606476f4163547dfe664e2410f34423fd443185b950a3e9c7b0837"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/body_n.vtf",
+    "size": 5592640,
+    "crc": 574153758,
+    "sha256": "1036cef83e2268a12c980a16df242649911501d7223c536f87c4c6a2ee1c55d5"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/body_s.vtf",
+    "size": 2796424,
+    "crc": 2032548523,
+    "sha256": "f8954d122641b3faa34a9bfed029c62fa74d86dcb8112018abcaf8d8ba1c36ac"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/chestlight_d.vtf",
+    "size": 699272,
+    "crc": 2474176718,
+    "sha256": "4f18a1d8c71de10487c93e783130bd6aee99fa3018f57770de9f5d53400c50e6"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/chestlight_e.vtf",
+    "size": 699272,
+    "crc": 2585042108,
+    "sha256": "fe7c739de004babe78737099280486319dc17979a4bb6c094e8365801561afb4"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/chestlight_n.vtf",
+    "size": 349760,
+    "crc": 730167896,
+    "sha256": "e7c70a740379500708a0521bc10b55628f622661c539c1b8b18d3b2ce4336fb7"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/chestlight_s.vtf",
+    "size": 174984,
+    "crc": 800068513,
+    "sha256": "bca12567a328ab4ff51c7ce03f3d32b502903dc1b6f4154e23f6d72df7d6c2c2"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/mi_gasflowing.vmt",
+    "size": 515,
+    "crc": 2797290823,
+    "sha256": "60432dff6d23c612d905a05d50c49701574223d757f816f5637b682a572d893c"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/mi_prototype_armsandbackcover.vmt",
+    "size": 378,
+    "crc": 305307128,
+    "sha256": "c53650ae5426c0ced1f7119102639fb08ed8d28fc84ba6a1d7b4cd95bd8efb89"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/mi_prototype_backfur.vmt",
+    "size": 413,
+    "crc": 2141075637,
+    "sha256": "b17d9f49625ad7fe165b8081b0349db2aa4eac76b71b0cc2662a431d08d11126"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/mi_prototype_backfur_extralayer.vmt",
+    "size": 411,
+    "crc": 1307041276,
+    "sha256": "53fd6ed879ed1a896ae605d590eeeeae4dd1796ea0e13484302a9727b6be83ce"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/mi_prototype_backfurborder.vmt",
+    "size": 227,
+    "crc": 1379626280,
+    "sha256": "99ff31882495c8eb9c19306fba75ed2c551e5130e1f8f7d370a39405f61aca5b"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/mi_prototype_bodyandlegs.vmt",
+    "size": 513,
+    "crc": 3178301972,
+    "sha256": "48c3e2af2b87c5646362a5367c9184f07842c8b6c7d1097fa0383712c5d64577"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/mi_prototype_chestlight.vmt",
+    "size": 537,
+    "crc": 668038800,
+    "sha256": "c2ab4723d50ece62c5e92b90503c4396db0e1d29a7e9b2b7a32f48ddf471c22a"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/mi_prototype_huggyarm_fur.vmt",
+    "size": 447,
+    "crc": 835257713,
+    "sha256": "346e3c5c256c395fb59157ce421e435c961060bb7669cac481727343fc3eb883"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/mi_prototype_kissyarm_fur.vmt",
+    "size": 447,
+    "crc": 4032406095,
+    "sha256": "a53ad0491678cc8644b49a3db0bd6725b330af5efae1985a9a2cb5a646aa16b7"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/mi_prototype_torso.vmt",
+    "size": 515,
+    "crc": 2474917535,
+    "sha256": "2ca47a381aabb6b4a184187958657a25dc1952339f6972e9652fa9d649243226"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/torso_d.vtf",
+    "size": 5592640,
+    "crc": 3874596104,
+    "sha256": "dd42267787a2c6bd2b78ce528e28ab031c98db55c8c1b43fd2433ebc1bb04704"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/torso_n.vtf",
+    "size": 5592640,
+    "crc": 707015274,
+    "sha256": "2e1ba7752f8c47554299e1ff21b1d61adfd3be45b6ee3a436746209379e72ee3"
+  },
+  {
+    "path": "materials/models/blast/ppc5/prototype/torso_s.vtf",
+    "size": 2796424,
+    "crc": 2070657723,
+    "sha256": "5a72736e77e38266d2a74245b6ba2d9227bb6d80e4411e2c3283d6bc3c62e71c"
+  },
+  {
+    "path": "materials/models/blast/ppc5/shared/flat.vtf",
+    "size": 136,
+    "crc": 3984126612,
+    "sha256": "4724a871d3cee8798cac15d67412ca94d0853c5ffddf9b26b93a9a1c8f9cea09"
+  },
+  {
+    "path": "materials/models/blast/ppc5/shared/redsmoke.vtf",
+    "size": 87616,
+    "crc": 2268865658,
+    "sha256": "d0c10de5246f6379241187c6b996238e1e29493d82aae167b0bb3485297d430d"
+  },
+  {
+    "path": "materials/models/blast/ppc5/shared/white.vtf",
+    "size": 349760,
+    "crc": 3544566188,
+    "sha256": "4cc3ab6dc36e50b8011aff06f25ade4af48e0cd09bfa762d953bf62fee0dfe95"
+  },
+  {
+    "path": "materials/pills/pill_ppt5.png",
+    "size": 362632,
+    "crc": 2698510766,
+    "sha256": "d18130ae199d0a7132f7faa92d1012c9c88d4885cc2d006bbaf1775bbb7d8395"
+  },
+  {
+    "path": "materials/pills/pill_ppt5bg.png",
+    "size": 301983,
+    "crc": 3544454477,
+    "sha256": "82113d9d01447e59afc13c25876234e451f0757ccffe7dd090e6b2c4e2bf17fe"
+  },
+  {
+    "path": "materials/pills/pill_ppt5chum.png",
+    "size": 1027220,
+    "crc": 3267508892,
+    "sha256": "20f100cfc3e575bee5f35e20d7842fe6d9188ba88c4dd0fdc0275d6e5d99fefe"
+  },
+  {
+    "path": "materials/pills/pill_ppt5huggy.png",
+    "size": 1230909,
+    "crc": 2975755193,
+    "sha256": "60a95f89f16cbf140ddcbe5ceacb9ba1dd055d65373393afc945d4f4aba42f67"
+  },
+  {
+    "path": "materials/pills/pill_ppt5lily.png",
+    "size": 1328996,
+    "crc": 2196769558,
+    "sha256": "f5136eed2e7fc9ce759434677eb6967fdaad79ec34aff95714cc12f99392102b"
+  },
+  {
+    "path": "materials/pills/pill_ppt5prototype.png",
+    "size": 672717,
+    "crc": 1905333494,
+    "sha256": "557ef1f660686bae505c9f06d3918b61a65840e6680a09337041f335a6c51adc"
+  },
+  {
+    "path": "models/ppt/chum.dx90.vtx",
+    "size": 1771493,
+    "crc": 733950203,
+    "sha256": "643382e79c4eece0eecc5103f468c9c0ac886c1ff43a55c7e4aff925bf8853ca"
+  },
+  {
+    "path": "models/ppt/chum.mdl",
+    "size": 437928,
+    "crc": 496334042,
+    "sha256": "c6ba9f36e8791171c963a36588638a1e48c898ef78e794464e00a16edceec220"
+  },
+  {
+    "path": "models/ppt/chum.vvd",
+    "size": 7279232,
+    "crc": 1632254158,
+    "sha256": "6ae0c7d58b7d2892989289ac576cafea58cb685e22769d6bf6fb08244ce03100"
+  },
+  {
+    "path": "models/ppt/hairbow.dx90.vtx",
+    "size": 309899,
+    "crc": 3880359121,
+    "sha256": "0cac70aba14a51ec1d067006650cb7c49954211aaed2224bab49505ff8d4048a"
+  },
+  {
+    "path": "models/ppt/hairbow.mdl",
+    "size": 1956,
+    "crc": 2562188585,
+    "sha256": "641e732ef7148922c477a152938cc3180cb0f8d4495e775c03e0e3e11eb919c0"
+  },
+  {
+    "path": "models/ppt/hairbow.phy",
+    "size": 11994,
+    "crc": 4131530861,
+    "sha256": "9a0783d470940700c8772e192cabaf8883d5d41d1c891e59be9af7b1e4acdff7"
+  },
+  {
+    "path": "models/ppt/hairbow.vvd",
+    "size": 1188224,
+    "crc": 259158595,
+    "sha256": "57fd1ae59ca5d24bb73f77f1bd883b73c61e9d24def455ab987594a838c4c4da"
+  },
+  {
+    "path": "models/ppt/huggyinjured.dx90.vtx",
+    "size": 2167521,
+    "crc": 754635183,
+    "sha256": "60f571885f3acdba13b5d16d9d3b7bbb43de014570fe65cbab018155e60a876a"
+  },
+  {
+    "path": "models/ppt/huggyinjured.mdl",
+    "size": 808560,
+    "crc": 703211234,
+    "sha256": "aa72185fc0fab938969d3bc98c3c869debc596032fb950a1f3d758c22d10ee40"
+  },
+  {
+    "path": "models/ppt/huggyinjured.vvd",
+    "size": 9331136,
+    "crc": 159910619,
+    "sha256": "9e2084273a484955d6903d5449b05d14cfd608c67dd0620e769b0c8183216a5b"
+  },
+  {
+    "path": "models/ppt/lily.dx90.vtx",
+    "size": 2780919,
+    "crc": 1543365440,
+    "sha256": "88002414a361bca2b87464611291ea3116cef43aea576160f852ef62267e22eb"
+  },
+  {
+    "path": "models/ppt/lily.mdl",
+    "size": 709824,
+    "crc": 2818748885,
+    "sha256": "eb94995124cba586547b4c2bf74ffccfc7a2e0469444b6ab105ce3f770e4984b"
+  },
+  {
+    "path": "models/ppt/lily.vvd",
+    "size": 11462464,
+    "crc": 2862987998,
+    "sha256": "333e39b391d4ae4ed77462b6fba471656d69f6a21f2c8bc39ab7fca5c22a6d43"
+  },
+  {
+    "path": "models/ppt/prototype.dx80.vtx",
+    "size": 4425931,
+    "crc": 1501045654,
+    "sha256": "b93fb239f6b6e0ed7724e289bdbc7c8cfd2c0afa22f2f868f99c4180ec607216"
+  },
+  {
+    "path": "models/ppt/prototype.dx90.vtx",
+    "size": 4418699,
+    "crc": 3036889748,
+    "sha256": "00a4b854612a3d23126f84036f262a44fae11cfecfb2368f2ee65830b5c1f67b"
+  },
+  {
+    "path": "models/ppt/prototype.mdl",
+    "size": 1289512,
+    "crc": 111239055,
+    "sha256": "4fbaf85ac71542d8402e0e81b161271ca12eb2a6f0b956060ade95b42d4ef65e"
+  },
+  {
+    "path": "models/ppt/prototype.vvd",
+    "size": 17940736,
+    "crc": 1224584737,
+    "sha256": "6fc5897e39de765135b0ef02dae1cfc29008e36504a8de27f74e16d367ce7410"
+  },
+  {
+    "path": "sound/chum/kill.wav",
+    "size": 613502,
+    "crc": 2001524504,
+    "sha256": "7beb70186a68ede55e073e3e1ecfbc88ab461adc475dd577e7bad2abe3985e59"
+  },
+  {
+    "path": "sound/chum/sw_dia_chum_vocalization_irritated_01.wav",
+    "size": 177366,
+    "crc": 2440789270,
+    "sha256": "f559d874b140f9a966d2c7b638f1dc9ff50d349409874aae48a8329575222302"
+  },
+  {
+    "path": "sound/chum/sw_dia_chum_vocalization_irritated_03.wav",
+    "size": 210882,
+    "crc": 3544761160,
+    "sha256": "61f0f810a472f826f24e7715430f9b01b59fd50961a884cf027fb7043a652f8f"
+  },
+  {
+    "path": "sound/chum/sw_dia_chum_vocalization_sad_02.wav",
+    "size": 169326,
+    "crc": 1949870409,
+    "sha256": "ef899091b1dadfc9fe8cc519b3020d02080837083a5a1464f77ad2be72390c83"
+  },
+  {
+    "path": "sound/chum/sw_dia_chum_vocalization_sad_04.wav",
+    "size": 177806,
+    "crc": 3335425191,
+    "sha256": "97b65aa50a6465aebdc1b15597713fa445918f93d00048ab1320046dd9f2a21c"
+  },
+  {
+    "path": "sound/chum/sw_dia_chum_vocalization_thoughtful_02.wav",
+    "size": 183540,
+    "crc": 2672211850,
+    "sha256": "407eb21d0a2697708c474cf85c0bfed6e012b8199853ac5d021c91d33164c04e"
+  },
+  {
+    "path": "sound/chum/sw_dia_chum_vocalization_thoughtful_03.wav",
+    "size": 236460,
+    "crc": 3949830003,
+    "sha256": "6f33a9e73099c5d6501ef59acb8225eeafd3911999b53db7b4011b98674364a2"
+  },
+  {
+    "path": "sound/chum/sw_dia_chum_vocalization_thoughtful_04.wav",
+    "size": 149142,
+    "crc": 247941557,
+    "sha256": "3873acf435816dfd03b247a35b1274f2ea2f1d445c51cb35f303e6fe6fe3a265"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_foley_01.wav",
+    "size": 132384,
+    "crc": 2220312398,
+    "sha256": "a690d5ba895213c5cfeb4f15bd9eb6e21b5db3c4e08c6013d2289a8ab784bead"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_foley_02.wav",
+    "size": 132384,
+    "crc": 1808060981,
+    "sha256": "b26a62e6bf67f67f1f92aeadd274229aeb2d370f40275b1d6c935b8cb373895a"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_foley_03.wav",
+    "size": 132384,
+    "crc": 1572250907,
+    "sha256": "552c3e8b3c5dba433023e3bb32f00ce0b968f067ac508935e201136c529a8e64"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_foley_04.wav",
+    "size": 176484,
+    "crc": 579831287,
+    "sha256": "13ab17d41c07b4a8c0e3a718c7792c1c2c3cda90a32db131ce35f47ca9cc104f"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_foley_05.wav",
+    "size": 176484,
+    "crc": 472788148,
+    "sha256": "32e769dc12c4a085f62d0198f95feb44480133de3f0f4497c017a7995551ad82"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_foley_06.wav",
+    "size": 176484,
+    "crc": 3516058305,
+    "sha256": "653503ff2f92187388064a890b5a4af7eef9f0ffaa31b86c3c884826068a0be1"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_footstep_01.wav",
+    "size": 88284,
+    "crc": 793752024,
+    "sha256": "d90a0ba38c65f422d94b5ac57b5415e20db510acf639005a38bce55250c94ae5"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_footstep_02.wav",
+    "size": 88284,
+    "crc": 3488016510,
+    "sha256": "4c48dca40cfb1ec52b873ac23bf237d2788580ad454c7096da59cd38f1a82b80"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_footstep_03.wav",
+    "size": 88284,
+    "crc": 1816680621,
+    "sha256": "ea266fb70132364079608e13a620e952daf5156640550edf8504ceef927dc7d6"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_footstep_04.wav",
+    "size": 88284,
+    "crc": 3342122552,
+    "sha256": "90c5b39f50c285dde118d9c95a73d44aa4e5ce57cb0e5dfda43aff56c15b4edc"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_footstep_05.wav",
+    "size": 88284,
+    "crc": 2828057041,
+    "sha256": "5402486fbce58c5d8f0836b638f9ca8b52c20eb7cfb811b413910390db832b60"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_footstep_06.wav",
+    "size": 88284,
+    "crc": 1156595876,
+    "sha256": "00978afff55fb72883f31209f5603510fbc7698348810e029a3e2492ce46961e"
+  },
+  {
+    "path": "sound/chum/sw_sfx_chum_spit.wav",
+    "size": 352884,
+    "crc": 1459990428,
+    "sha256": "f2a890514c7e7818b204e57a17dfd071f09e9baca932f2a320746611a45e533a"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_huggy_body_docile_03.wav",
+    "size": 134408,
+    "crc": 3708176310,
+    "sha256": "6071f08cba67d445c32a5705d37e63ad96668eea24c50d4c7d5085b619f4e5ad"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_huggy_body_docile_05.wav",
+    "size": 171776,
+    "crc": 3072055286,
+    "sha256": "bf276a1fd98eb824237d2e59ab67756342c5743270e14344751b6b258debf493"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_huggy_body_docile_06.wav",
+    "size": 347672,
+    "crc": 2911597900,
+    "sha256": "85aac3c934d19cd75b6fd54bccfc8de4ab3f6dfa68e06e338dda866899bce362"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_huggy_body_swipe_01.wav",
+    "size": 213968,
+    "crc": 2451119086,
+    "sha256": "d534754a1a4138224597f4a9e7c39af0a2d81ff94998e081157775449e45e93c"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_huggy_jumpscare.wav",
+    "size": 295604,
+    "crc": 774250933,
+    "sha256": "7cee35ee7baceb5295a2bddf2e95e009917eada89d999cc4777e98f9b171763e"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_huggy_walk_01.wav",
+    "size": 125180,
+    "crc": 4206962517,
+    "sha256": "b3f58bd433553bac581a0941769d4a5fab0fb323532e65cb1ec499652d037746"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_huggy_walk_02.wav",
+    "size": 123056,
+    "crc": 975690586,
+    "sha256": "696e781afe29bb2185c60e397fe9e02a55433cbe0c2dfbcf77025f0da038e285"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_huggy_walk_03.wav",
+    "size": 139340,
+    "crc": 635531906,
+    "sha256": "705b030375e08c27e7cf22e21ef523e310a794a267284122e2d0569cf30256c8"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_agitated_02.wav",
+    "size": 1234884,
+    "crc": 1377522706,
+    "sha256": "f9d4c927e4e03c4d0b25def13c0e04b864ac77395a8748c3e63db335c6b57d5f"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_agitated_03.wav",
+    "size": 969304,
+    "crc": 640673738,
+    "sha256": "9967480a922dc74f41981d0de34e64ed48d1848e3af3ee355344977355920296"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_agitated_04.wav",
+    "size": 1323084,
+    "crc": 3914303816,
+    "sha256": "a24775dd08a80d9fa84933037fcfd829a42896a3bfbab5e1a89030835bcddabe"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_agitated_05.wav",
+    "size": 882084,
+    "crc": 3624780914,
+    "sha256": "5dffce30716b9708a1cab64803ca40f0f2fac8801f1c158d24115899b4b72f93"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_agitated_06.wav",
+    "size": 1146684,
+    "crc": 3575852950,
+    "sha256": "b0fc184fdabff2024e85a27077ac0b2a201e9c7032734ba218e4cc20ccbdfbaa"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_agitated_07.wav",
+    "size": 1146684,
+    "crc": 3409570189,
+    "sha256": "e6a36d56424ca0f71af4e3e56759cf7c3a41c8f5c07f51c6c8c12fabdbc4a182"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_agitated_08.wav",
+    "size": 1587684,
+    "crc": 273623743,
+    "sha256": "9919c45e646ff986a38fae073ecf7bb7e3782f72de1d884143ccaddd89ac3f47"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_breathe_01.wav",
+    "size": 1058484,
+    "crc": 1540136094,
+    "sha256": "a1a73711c2c1691dee09ddd9d7f9e22c88f405315d43bd31a5080a5e0f8e4140"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_breathe_03.wav",
+    "size": 1234884,
+    "crc": 4108053528,
+    "sha256": "aa0f650ce328b7c81d6b652cc103232b8d6a5d0fc98b3c40aedee4c351e56fc8"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_breathe_04.wav",
+    "size": 1221988,
+    "crc": 11346442,
+    "sha256": "6fba2e600092fa9192b851fa4dbea007e4162e8c265e4befb9348a346283b192"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_breathe_05.wav",
+    "size": 793884,
+    "crc": 2598829110,
+    "sha256": "1e47cb71f42695d372f0cab0372f8f98df3209a69710c42468fefb483d5d1dc6"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_docile_growl_01.wav",
+    "size": 264684,
+    "crc": 628139298,
+    "sha256": "96f32b1d49a508ac1bfa932a294023217a810404e650b5c400157ec1bb6d800f"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_docile_growl_02.wav",
+    "size": 441084,
+    "crc": 2664196330,
+    "sha256": "6761526a2a8d68b24fe9cc3b670598fe0ad83a28b8e31ebc343b53898f3ef234"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_docile_growl_03.wav",
+    "size": 352884,
+    "crc": 51842994,
+    "sha256": "076404ad4c7fab6865a21b857cab6e105645325654c26a35f09ac03bc88a8b8e"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_docile_short_01.wav",
+    "size": 264684,
+    "crc": 388174656,
+    "sha256": "c8f6944127865abf377ec070df63be83d7eac9a34cf93f51767b31d0cdbf3c83"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_docile_short_02.wav",
+    "size": 264684,
+    "crc": 1930483479,
+    "sha256": "5e6d1b37f32ae68e1af565ea0d14157d8f33789ad96c87e23b96fcc22cc3a3ac"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_docile_short_03.wav",
+    "size": 264684,
+    "crc": 3875199487,
+    "sha256": "4710f5c257979238939a6708dfae2414e1579d37eb851d9a6d125f42779616ae"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_laugh.wav",
+    "size": 352884,
+    "crc": 4083866067,
+    "sha256": "8a0742f33965e3d36d057941153fc87f7013f983879abce3aa82f54021f27a66"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_sad_long.wav",
+    "size": 1499484,
+    "crc": 2375686511,
+    "sha256": "cd382fa13929370f98e38f13c64f156bcfae8858f3356156a2242685836cb4d4"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_scream_long_01.wav",
+    "size": 352884,
+    "crc": 2106149913,
+    "sha256": "bd0a922afe4e5eaa04b3761fd1fa216457f0abff194c3af4375c7d37a0594c5c"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_scream_long_02.wav",
+    "size": 352884,
+    "crc": 4027123433,
+    "sha256": "5b087b1818dab70c347358651471936e1610b08bbb315a67e673a029df3b8e02"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_scream_long_03.wav",
+    "size": 352884,
+    "crc": 169748831,
+    "sha256": "db8ef301498942bd65b46b950857faaf14d57cb9f0f184edcf9d87ade44cf753"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_scream_short_01.wav",
+    "size": 264684,
+    "crc": 1557659515,
+    "sha256": "7f9b8b3bfcb0c3bdc20adf047c35571fa244c6a04582f8778d435187ca5ca7fb"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_scream_short_02.wav",
+    "size": 264684,
+    "crc": 2751322694,
+    "sha256": "56ec2ad13c7f33d8a4a38b842148917a032f7c04fa1f242fe1224a867394de57"
+  },
+  {
+    "path": "sound/huggych5/sw_sfx_wuggy_scream_short_03.wav",
+    "size": 264684,
+    "crc": 880249043,
+    "sha256": "b319bbbd2c298de3cafd263c639bdab11459c2abde7336e78b1475326dea84ac"
+  },
+  {
+    "path": "sound/kissych5/sw_kissy_footstep_01.wav",
+    "size": 176484,
+    "crc": 1730571959,
+    "sha256": "f17a2cab621c8cc98abb25019b2f8e82de633b39ef50e8953bea0e0b944f1144"
+  },
+  {
+    "path": "sound/kissych5/sw_kissy_footstep_02.wav",
+    "size": 264684,
+    "crc": 3055916147,
+    "sha256": "38f5a7dd8beb1dfa592c69c55f9caf14035c5736f0ff7ef3d0ada21dfbf9557a"
+  },
+  {
+    "path": "sound/kissych5/sw_kissy_footstep_03.wav",
+    "size": 220584,
+    "crc": 412377620,
+    "sha256": "4541d5f1554b66068f6278c1b5eb009677ca3e9cf1688424ac1caffcc2b2c25f"
+  },
+  {
+    "path": "sound/lily/lilykillfixed.wav",
+    "size": 1567528,
+    "crc": 764051018,
+    "sha256": "53f4591fe9cd951d15ff4cd49cf5cdf53153624ee9dc9e7168178af929728338"
+  },
+  {
+    "path": "sound/lily/sw_dia_bark_js_lily_02.wav",
+    "size": 326514,
+    "crc": 4194585235,
+    "sha256": "1b2cf7b469312f680e9e9ed9084985c3289ac8ac9ae18e90d0418a6314fafb21"
+  },
+  {
+    "path": "sound/lily/sw_dia_bark_js_lily_05.wav",
+    "size": 394276,
+    "crc": 1187739647,
+    "sha256": "54c8bb9f08efa6040d6e3ff4a62c647971b060ba66aa91635eeca14d5af2e947"
+  },
+  {
+    "path": "sound/lily/sw_dia_bark_laugh_lily_01.wav",
+    "size": 322426,
+    "crc": 983458767,
+    "sha256": "24f96cad8db68e17d4e36924ff1db948d285d77ad46b1b415ed3dec281fb6483"
+  },
+  {
+    "path": "sound/lily/sw_dia_bark_laugh_lily_02.wav",
+    "size": 236308,
+    "crc": 1428786505,
+    "sha256": "00623a68365c59e0451e50fe17c73a36105697c5c7c0cd37a868c7fd293825f8"
+  },
+  {
+    "path": "sound/lily/sw_dia_bark_laugh_lily_04.wav",
+    "size": 260208,
+    "crc": 3650619203,
+    "sha256": "737d20c626c286f69c93b6591a4262366ae7e19b4a5ffa156b72aac443512693"
+  },
+  {
+    "path": "sound/lily/sw_dia_bark_laugh_lily_06.wav",
+    "size": 1097104,
+    "crc": 4221660187,
+    "sha256": "dcf87fdc68311880081356a3408b436e8944cb3ddc6d868da572629fddf76221"
+  },
+  {
+    "path": "sound/lily/sw_sfx_hair_loop.wav",
+    "size": 1411352,
+    "crc": 876396767,
+    "sha256": "b3c5c31c7b8342df5d6ac50eb4bfb04faac1f54e472daa25093014f88da4a492"
+  },
+  {
+    "path": "sound/lily/sw_sfx_hair_swipe_01.wav",
+    "size": 176484,
+    "crc": 2644474667,
+    "sha256": "c538baa7ee7616363617c2304e5c967fed00b4a1df3582e51f8b1c09b6dd30d2"
+  },
+  {
+    "path": "sound/lily/sw_sfx_hair_swipe_02.wav",
+    "size": 176484,
+    "crc": 4006530342,
+    "sha256": "68bea6d20fe4c99c48a9bf9d78eda4915ec3c02fb6144fba899e6d2d1d5caebd"
+  },
+  {
+    "path": "sound/lily/sw_sfx_hair_swipe_03.wav",
+    "size": 176484,
+    "crc": 1335340160,
+    "sha256": "e6e8185701868f72ea6865852fcd560d7e96041802803d8caa6bb75bbdb2120e"
+  },
+  {
+    "path": "sound/lily/sw_sfx_hair_swipe_04.wav",
+    "size": 176484,
+    "crc": 346398102,
+    "sha256": "fe904045a6d1704ca84fabf460328f1d35d186ef2a6022d72eb6c80b42d76083"
+  },
+  {
+    "path": "sound/lily/sw_sfx_hair_swipe_05.wav",
+    "size": 176484,
+    "crc": 3113658635,
+    "sha256": "d8a9a8aeb855f212e79de5898d06261b95eefe2bf417432b7930bb925ce5b92a"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lilly_braids_tighten_01.wav",
+    "size": 265756,
+    "crc": 2173087675,
+    "sha256": "e653be4f87a2ca58c0e83f7d72c46e1a4b096880cf9ea0e740f03fedae0167ec"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lilly_braids_tighten_02.wav",
+    "size": 228700,
+    "crc": 982380204,
+    "sha256": "2e06cde02c6a03b7af17ecac70a26cc9634569f191f092a74a65bf68621e57b5"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lilly_braids_tighten_03.wav",
+    "size": 397352,
+    "crc": 1939188172,
+    "sha256": "25661ea3f13564afc59354cae7638a895ee954769aa6ad436d26d32faea558f7"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lilly_braids_tighten_04.wav",
+    "size": 211676,
+    "crc": 1623181387,
+    "sha256": "07d85ffd104068f8b984c43a9a525c95729e57275bcdd33c3c34bfd2ac87b5e8"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_footstep_01.wav",
+    "size": 88284,
+    "crc": 2328714285,
+    "sha256": "ef2699bb03b4cd6dce3321d0e8302eed7bba5ab2f27fbac1ba08281aeb409c1c"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_footstep_02.wav",
+    "size": 88284,
+    "crc": 1975695713,
+    "sha256": "973e8f2c189af46da3dfe05d2245ba3d424d010da17b31a87aa303c4bc1c4f7b"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_footstep_03.wav",
+    "size": 88284,
+    "crc": 1567905365,
+    "sha256": "c85307b57f55cfcaa3cdbb77c693c5eafe3284e4747530689701c1f1736e9676"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_footstep_04.wav",
+    "size": 88284,
+    "crc": 3878308860,
+    "sha256": "e23e96abb03174ec69162e5e570ecd7af5e2243b18adca240a2b5b4036c5b250"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_footstep_05.wav",
+    "size": 88284,
+    "crc": 869942295,
+    "sha256": "4fc34d2d1fc304ed6b7aba269550dd0391889daa78d7a8aea9249db5dd736de1"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_footstep_06.wav",
+    "size": 88284,
+    "crc": 3317998844,
+    "sha256": "046b16808774247ed38b824a9a2d72b5baa1ebc05a8181e5a03dd439615b0a20"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_hair_short_01.wav",
+    "size": 264684,
+    "crc": 1447053196,
+    "sha256": "f083ea833061c44dfe9c56154e568e7be411c191b64ca6351604b61ac8dc8648"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_hair_short_02.wav",
+    "size": 264684,
+    "crc": 1958118406,
+    "sha256": "af3bc8acf84239c35c79c0639abc5e52a24e350ef860f780ad97e4e79eb55a69"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_hair_short_03.wav",
+    "size": 264684,
+    "crc": 2873460298,
+    "sha256": "046e18e03a823cc0a316f904fb8602ae72f4852dda5259a4116da4675c9e86cf"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_hair_short_04.wav",
+    "size": 264684,
+    "crc": 2636399702,
+    "sha256": "e403c32f8a2212b6e3e9fe333d739569c519ed449ef7ac82a1786a79921ea858"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_hair_short_05.wav",
+    "size": 264684,
+    "crc": 1162437889,
+    "sha256": "57ee6c13cca50e89b369c7ea42532130ba18a8aa5246a3d7eb6544ca25e0d7f7"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_hair_short_06.wav",
+    "size": 264684,
+    "crc": 3236308709,
+    "sha256": "8507dbb0aef08e93cc364026ae44e4db1aba4b890a9455ff6124a97840cb3fac"
+  },
+  {
+    "path": "sound/lily/sw_sfx_lily_scream_01.wav",
+    "size": 277032,
+    "crc": 3096708834,
+    "sha256": "a8480cf91c68c6da54f541b17157f859914fed177c76c9073d1184c9b3759c1a"
+  },
+  {
+    "path": "sound/proto/footsteps/walkstep1.wav",
+    "size": 79660,
+    "crc": 3239235146,
+    "sha256": "97b97946feb177493025078c85bb387bd60b52cde0fdb469a7bc0486a90d82d6"
+  },
+  {
+    "path": "sound/proto/footsteps/walkstep2.wav",
+    "size": 88094,
+    "crc": 652155749,
+    "sha256": "df892434f2bc57720061f099e1857ff10fa85cadf05b11df3f7a4f15f064bf6e"
+  },
+  {
+    "path": "sound/proto/footsteps/walkstep3.wav",
+    "size": 77904,
+    "crc": 1985053536,
+    "sha256": "c26c3c8b5989d2665f57aa96c3581159c397a4eb4b1e10ebd0ca750ef94629e1"
+  },
+  {
+    "path": "sound/proto/footsteps/walkstep4.wav",
+    "size": 69796,
+    "crc": 2919883216,
+    "sha256": "886f69ca8b0036ec3e8ad9b7522da091e18861e1818437d54dbcc44c246b1469"
+  },
+  {
+    "path": "sound/proto/footsteps/walkstep5.wav",
+    "size": 95150,
+    "crc": 2156971356,
+    "sha256": "00791dbca8691fde93e172ebe2c73de250d96b999ce2426988d25e99458e64bb"
+  },
+  {
+    "path": "sound/proto/footsteps/walkstep6.wav",
+    "size": 76852,
+    "crc": 3236878440,
+    "sha256": "57057a9955dae9801e0e02b7b724412765e3b6202b759686767f0d5437f8d2c0"
+  },
+  {
+    "path": "sound/proto/killvoiceline1.wav",
+    "size": 336044,
+    "crc": 3839879077,
+    "sha256": "fd07b86a78081a1effa744e6fcc5367539e20662df24935b9ac70d3dc5333961"
+  },
+  {
+    "path": "sound/proto/killvoiceline10.wav",
+    "size": 441044,
+    "crc": 4280603757,
+    "sha256": "37467ed9b1787be160f84aec4cbca058c716261f1642007208353f30f13a5706"
+  },
+  {
+    "path": "sound/proto/killvoiceline11.wav",
+    "size": 264644,
+    "crc": 922963782,
+    "sha256": "8a5ec3003cb0924c9c9bce1566c6176f1abf3067c56a9a8640199d44d020cfad"
+  },
+  {
+    "path": "sound/proto/killvoiceline12.wav",
+    "size": 396944,
+    "crc": 2112819788,
+    "sha256": "23c8da9318313f74674cfcd190a81921e8be955a4f5068cc563db1295b3be48d"
+  },
+  {
+    "path": "sound/proto/killvoiceline13.wav",
+    "size": 264644,
+    "crc": 2890796635,
+    "sha256": "42f39b05e1b15f16e0753be1b68d5dae70a03f366dcaf77b11fb671bd940d2f8"
+  },
+  {
+    "path": "sound/proto/killvoiceline14.wav",
+    "size": 576044,
+    "crc": 4172783189,
+    "sha256": "bea75e1f00ed8a4c78ad1eff4ccc21c216b2ce49bf3e8b18db6490e2f95ab8a0"
+  },
+  {
+    "path": "sound/proto/killvoiceline15.wav",
+    "size": 485144,
+    "crc": 768994122,
+    "sha256": "17df6a24fcfe24cc2834b696b370031798cfb41e420a834ac628d116b6a71e2a"
+  },
+  {
+    "path": "sound/proto/killvoiceline16.wav",
+    "size": 336044,
+    "crc": 2499180106,
+    "sha256": "66fd3a6b0f9e3936735e21577131ff860dbe63e399213aab6a343e8bb418c01e"
+  },
+  {
+    "path": "sound/proto/killvoiceline17.wav",
+    "size": 432044,
+    "crc": 833117855,
+    "sha256": "06c49fefbd94917d8b26beada16dde5aeeea1ac0f2b729e7cccd2e8e01f0c867"
+  },
+  {
+    "path": "sound/proto/killvoiceline18.wav",
+    "size": 336044,
+    "crc": 3880087853,
+    "sha256": "2d3ccc63ac80ad4340af0ab7442ec09885cd73a54b04ffdd9e3c5160a88b7398"
+  },
+  {
+    "path": "sound/proto/killvoiceline19.wav",
+    "size": 240044,
+    "crc": 3533551233,
+    "sha256": "9d9404f521ce361619961741fbf2c14c3592ff7d6b34f6ea5c69a1a34529066c"
+  },
+  {
+    "path": "sound/proto/killvoiceline2.wav",
+    "size": 352844,
+    "crc": 1567804287,
+    "sha256": "a810201c558f83547af054a605aae88619d84cf84ff137dff59b79fb3b4624b7"
+  },
+  {
+    "path": "sound/proto/killvoiceline20.wav",
+    "size": 240044,
+    "crc": 2193695130,
+    "sha256": "b681e515d50768222fa053241b6eee5b6568a3a49381f5a381d498816fa2ad1a"
+  },
+  {
+    "path": "sound/proto/killvoiceline21.wav",
+    "size": 288044,
+    "crc": 4127372414,
+    "sha256": "3f6f5a599a6cf0ec5120a757fd3b195221086256516bde73b39b995b416004cc"
+  },
+  {
+    "path": "sound/proto/killvoiceline22.wav",
+    "size": 240044,
+    "crc": 4091488316,
+    "sha256": "e24e128978579ba2c822f42a304945e99673006d7e75b3deebb5fc1b3e96dc57"
+  },
+  {
+    "path": "sound/proto/killvoiceline23.wav",
+    "size": 240044,
+    "crc": 1045066019,
+    "sha256": "dd19afe31f0601b5615762bb02f6fbae5734caed86553bea0700c4b1a3e4f3b9"
+  },
+  {
+    "path": "sound/proto/killvoiceline3.wav",
+    "size": 264644,
+    "crc": 2648765480,
+    "sha256": "97067c12f20b03f378afe2285fa4bf595dd249cbfe8fb2328ad1f7fd8497e050"
+  },
+  {
+    "path": "sound/proto/killvoiceline4.wav",
+    "size": 220544,
+    "crc": 1875426310,
+    "sha256": "e397121de9ced006439ef593ca794a695de657432e34dd66f038da39214a65a7"
+  },
+  {
+    "path": "sound/proto/killvoiceline5.wav",
+    "size": 396944,
+    "crc": 716906126,
+    "sha256": "fc2669358f21a5d9ef627088b58bf551bdc9d23d16dbbb9f777c10f175a7e6c2"
+  },
+  {
+    "path": "sound/proto/killvoiceline6.wav",
+    "size": 432044,
+    "crc": 1722133600,
+    "sha256": "bc4d625174cf035851cfcd75b9cbf6147473af2007e9d30e3e1b946f0fa78829"
+  },
+  {
+    "path": "sound/proto/killvoiceline7.wav",
+    "size": 480044,
+    "crc": 1491735004,
+    "sha256": "e4859c0cbd7d8402e61009072325a00d4da8e654fc9c9ab303c0f1fe7a5de9bb"
+  },
+  {
+    "path": "sound/proto/killvoiceline8.wav",
+    "size": 352844,
+    "crc": 2214323586,
+    "sha256": "8aa2fe726ebcd414872daf3924c7a11be1cbc90c94d3a421f1294369333b671c"
+  },
+  {
+    "path": "sound/proto/killvoiceline9.wav",
+    "size": 264644,
+    "crc": 2784732601,
+    "sha256": "44ece7a0d857037c057ace0c7e1f89886c271e9b431329f35d5ffecde1670cc2"
+  },
+  {
+    "path": "sound/proto/prototypekill.wav",
+    "size": 1801162,
+    "crc": 1240126344,
+    "sha256": "cf54d8970deb636bcff8f54b0ac429fe8e645928c77abdb9c957e19bc65cc931"
+  }
+]

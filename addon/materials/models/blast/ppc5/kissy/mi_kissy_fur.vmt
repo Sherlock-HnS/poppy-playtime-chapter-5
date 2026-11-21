@@ -1,0 +1,25 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models\blast\ppc5\kissy\fur_d"
+    "$bumpmap" "models\whynotboi\ppc5\huggy\fur_n"
+
+    "$nodecal" "1"
+
+    "$alphatest" "1"
+
+    "$alphatestreference" ".45"
+
+    "$phong" "1"
+
+    "$phongtint" "[1 .7 .7]"
+
+    "$phongexponenttexture" "models\whynotboi\ppc5\huggy\fur_s"
+
+    "$phongboost"    "1"
+    
+    "$phongfresnelranges"	"[.5 1 1]"
+
+    "$phongdisablehalflambert"    "1"
+
+    "$nocull" "0"
+}
