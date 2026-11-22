@@ -38,13 +38,10 @@ hook.Add("OnEntityCreated", "ppt5t_initialize_gem_2", function(ent)
                         end
 
                         if self.animFreeze and not self.plyFrozen then
-                            ply:SetWalkSpeed(ply:GetWalkSpeed() / 2)
-                            ply:SetRunSpeed(ply:GetWalkSpeed() / 2)
+                            self:ApplyMoveSpeed()
                             self.plyFrozen = true
                         elseif not self.animFreeze and self.plyFrozen then
-                            local speed = self.formTable.moveSpeed or {}
-                            ply:SetWalkSpeed(speed.walk or 200)
-                            ply:SetRunSpeed(speed.run or speed.walk or 500)
+                            self:ApplyMoveSpeed()
                             self.plyFrozen = nil
                         end
 
@@ -206,7 +203,7 @@ hook.Add("OnEntityCreated", "ppt5t_initialize_gem_2", function(ent)
                         --water death
                         self.touchingWater = ply:WaterLevel() > 1
 
-                        if (self.formTable.damageFromWater and self.touchingWater) then
+                        if not SherlockHNS and self.formTable.damageFromWater and self.touchingWater then
                             if self.formTable.damageFromWater == -1 then
                                 --self:PillDie()
                                 ply:Kill()
@@ -257,7 +254,7 @@ hook.Add("OnEntityCreated", "ppt5t_initialize_gem_2", function(ent)
                         end
 
                         --charge
-                        if self:GetChargeTime() ~= 0 then
+                        if not SherlockHNS and self:GetChargeTime() ~= 0 then
                             if ply:OnGround() then
                                 local charge = self.formTable.charge
                                 local angs = ply:EyeAngles()
@@ -563,6 +560,7 @@ else
     }
 
     hook.Add("HUDPaint", "blastnit_lilylovebraids_hud", function()
+        if SherlockHNS then return end
         local ply = LocalPlayer()
         if not IsValid(ply) then return end
 
@@ -771,6 +769,13 @@ local function ppt5jackietien_jumpscare(ply, ent, duration, customanimstuff)
         end
     end
 
+    if SherlockHNS and IsValid(jumpscare_entity) and jumpscare_entity:IsPlayer() then
+        return pk_pills.playHNSJumpscare(ply, ent, jumpscare_entity, duration, {
+            camera = "ppt5_jumpscare_gen",
+            onStart = customanimstuff,
+        })
+    end
+
     if jumpscare_entity ~= nil then
         
         ent.JuumpscareStart = CurTime()
@@ -937,6 +942,15 @@ attack = {
             end
         end
 
+        if SherlockHNS and IsValid(entity) and entity:IsPlayer() then
+            return pk_pills.playHNSJumpscare(ply, ent, entity, 8, {
+                camera = "ppt5_jumpscare_gen",
+                offset = 50,
+                animation = "jumpscare",
+                sound = "kill",
+            })
+        end
+
         if not IsValid(entity) then return end
 
         local pill = ent:GetPuppet()
@@ -1027,7 +1041,14 @@ noragdoll=true,
 
     end
     
-})
+}, function(form)
+    -- The legacy damage branches are for Sandbox and NPCs.
+    form.hnsKillAPI = true
+    form.hnsAbilities = {
+        { id = "attack", name = "Ataque", key = IN_ATTACK, OnUse = form.attack.func },
+    }
+    form.attack, form.attack2, form.reload = nil, nil, nil
+end)
 
 pk_pills.register("pill_ppt5huggy",{
 
@@ -1171,6 +1192,15 @@ attack = {
             end
         end
 
+        if SherlockHNS and IsValid(entity) and entity:IsPlayer() then
+            return pk_pills.playHNSJumpscare(ply, ent, entity, 1.5, {
+                camera = "ppt5_jumpscare_gen",
+                offset = 50,
+                animation = "jumpscare",
+                sound = "kill",
+            })
+        end
+
         if not IsValid(entity) then 
             --ent:PillAnim('attack')
             return 
@@ -1280,7 +1310,15 @@ noragdoll=true,
 
     end
     
-})
+}, function(form)
+    -- The legacy damage branches are for Sandbox and NPCs.
+    form.hnsKillAPI = true
+    form.hnsAbilities = {
+        { id = "attack", name = "Ataque", key = IN_ATTACK, OnUse = form.attack.func },
+        { id = "roar", name = "Rugido", key = IN_RELOAD, OnUse = form.reload },
+    }
+    form.attack, form.attack2, form.reload = nil, nil, nil
+end)
 
 pk_pills.register("pill_ppt5chum",{
 
@@ -1383,6 +1421,15 @@ pk_pills.register("pill_ppt5chum",{
                 end
             end
     
+            if SherlockHNS and IsValid(entity) and entity:IsPlayer() then
+                return pk_pills.playHNSJumpscare(ply, ent, entity, 2, {
+                    camera = "ppt5_jumpscare_gen",
+                    offset = 50,
+                    animation = "jumpscare",
+                    sound = "kill",
+                })
+            end
+
             if not IsValid(entity) then return end
     
             local pill = ent:GetPuppet()
@@ -1551,15 +1598,13 @@ noragdoll=true,
         if ply.angry and ply.angry == 1 then
             ent.formTable.anims.default.idle = "idle"
             ent.formTable.anims.default.walk = "walk" 
-            ply:SetRunSpeed(500)
-            ply:SetWalkSpeed(120)
+            pk_pills.setCostumeMoveSpeed(ent, 120, 500)
             ply.angry = 0
         else
             ent.formTable.anims.default.idle = "hostile_idle"
             ent.formTable.anims.default.walk = "hostile_walk" 
             ply.angry = 1
-            ply:SetRunSpeed(500)
-            ply:SetWalkSpeed(47)
+            pk_pills.setCostumeMoveSpeed(ent, 47, 500)
         end
     end,
 
@@ -1574,7 +1619,15 @@ noragdoll=true,
 
     end
     
-})
+}, function(form)
+    -- The legacy damage branches are for Sandbox and NPCs.
+    form.hnsKillAPI = true
+    form.hnsAbilities = {
+        { id = "attack", name = "Ataque", key = IN_ATTACK, OnUse = form.attack.func },
+        { id = "stance", name = "Alternar postura", key = IN_RELOAD, OnUse = form.reload },
+    }
+    form.attack, form.attack2, form.reload = nil, nil, nil
+end)
 
 pk_pills.register("pill_ppt5lily",{
 
@@ -1675,6 +1728,15 @@ attack = {
             end
         end
 
+        if SherlockHNS and IsValid(entity) and entity:IsPlayer() then
+            return pk_pills.playHNSJumpscare(ply, ent, entity, 7, {
+                camera = "ppt5_jumpscare_gen",
+                offset = 50,
+                animation = "jumpscare",
+                sound = "kill",
+            })
+        end
+
         if not IsValid(entity) then 
             return 
         end
@@ -1770,6 +1832,7 @@ noragdoll=true,
                 if door:GetClass() == "prop_door_rotating" or door:GetClass() == "func_door" or door:GetClass() == "func_door_rotating" then
 
                     ent:SetNWFloat("blastnit_lilylovebraids_ability", CurTime() + 30)
+                    pk_pills.setHNSCooldown(ent, "lock", ent:GetNWFloat("blastnit_lilylovebraids_ability") - CurTime())
                     if door:GetNWBool("CoveredInWebs_lilylove_blastnit") then
                         door:SetNWBool("CoveredInWebs_lilylove_blastnit", false)
                     else
@@ -1893,4 +1956,12 @@ noragdoll=true,
 
     end
     
-})
+}, function(form)
+    -- The legacy damage branches are for Sandbox and NPCs.
+    form.hnsKillAPI = true
+    form.hnsAbilities = {
+        { id = "attack", name = "Ataque", key = IN_ATTACK, OnUse = form.attack.func },
+        { id = "lock", name = "Trancar porta", key = IN_RELOAD, OnUse = form.reload },
+    }
+    form.attack, form.attack2, form.reload = nil, nil, nil
+end)
